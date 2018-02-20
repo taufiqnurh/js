@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<br>
-<br>
-<br>
-
-<button onclick="myFunction()">Klik untuk melihat Info Hari ini</button>
-
-<p id="demo"></p>
-
-<script>
 function myFunction() {
     var date = new Date().getDate(); 
     var greeting;
@@ -21,7 +8,3 @@ function myFunction() {
     }
     document.getElementById("demo").innerHTML = greeting;
 }
-</script>
-
-</body>
-</html>
