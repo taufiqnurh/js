@@ -1,10 +1,8 @@
-function myFunction() {
-    var date = new Date().getDate(); 
+var date = new Date().getDate(); 
     var greeting;
     if (date > 20 ) {
         greeting = "Info: Pengantar Ayat Ekonomi Libur";
     } else {
-        greeting = "Tidak ada Info";
+        greeting = " tidak ada info ";
     }
     document.getElementById("demo").innerHTML = greeting;
-}
